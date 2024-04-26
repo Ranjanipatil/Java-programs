@@ -2,6 +2,8 @@
 package assignments;//adding of 5 static 
 //and non stactic methos and call them inside the main method 
 
+import net.bytebuddy.dynamic.loading.ClassInjector.UsingReflection.System;
+
 public class CallStaticMethod_Add_Sub_Mul_Div_InsideMainMethod {
 
 	static void add()
